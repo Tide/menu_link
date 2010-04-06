@@ -1,0 +1,17 @@
+<fieldset>
+<legend><%= l(:link_settings_title) %></legend>
+<p><label><%= l(:link_name_title) %></label>
+<%= text_field_tag 'settings[link_item_name]', @settings['link_item_name'] %><br />
+</p>
+
+<p><label><%= l(:link_url_title) %></label>
+<%= text_field_tag 'settings[link_item_text]', @settings['link_item_text'] %><br />
+</p>
+
+<p>
+  <label><%= l(:link_new_window) %></label>
+  <%= hidden_field_tag 'settings[new_window]', 0 %>
+  <%= check_box_tag 'settings[new_window]', 1, @settings['new_window'].to_i == 1 %>
+</p>
+
+</fieldset>

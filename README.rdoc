@@ -2,7 +2,7 @@
 
 A plugin which adds a link to the top menu of Redmine.
 
--- Authors
+== Authors
 
 Tide, Yuki Kita
 

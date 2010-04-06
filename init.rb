@@ -11,13 +11,14 @@ Redmine::Plugin.register :menu_link do
   settings :default => {
     'link_item_text' => 'http://www.google.com',
     'link_item_name' => 'Google',
-    'new_window' => '0'
-
+    'new_window' => '0',
+    'link_require_logged_in' => '0'
   }, :partial => 'settings/menulink_settings'
   menu(:top_menu,
       :link,
       Proc.new { Setting.plugin_menu_link['link_item_text'] },
-      :caption => Proc.new { Setting.plugin_menu_link['link_item_name'] })
+      :caption => Proc.new { Setting.plugin_menu_link['link_item_name'] },
+      :if => Proc.new { (Setting.plugin_menu_link['link_require_logged_in'] == '1') ? User.current.logged? : true })
 end
 
 class MenuListener < Redmine::Hook::ViewListener

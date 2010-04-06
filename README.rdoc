@@ -2,11 +2,16 @@
 
 A plugin which adds a link to the top menu of Redmine.
 
+-- Authors
+
+Tide, Yuki Kita
+
 == Features
 
 * Set a custom name for the link.
 * Change the link and name without restarting Redmine.
 * Open in current window or new window.
+* Option to require user to be logged in.
 
 == Installation and Setup
 

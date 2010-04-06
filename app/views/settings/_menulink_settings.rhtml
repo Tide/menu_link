@@ -1,17 +1,23 @@
 <fieldset>
 <legend><%= l(:link_settings_title) %></legend>
 <p><label><%= l(:link_name_title) %></label>
-<%= text_field_tag 'settings[link_item_name]', @settings['link_item_name'] %><br />
+<%= text_field_tag 'settings[link_item_name]', @settings['link_item_name'], :size => 40 %><br />
 </p>
 
 <p><label><%= l(:link_url_title) %></label>
-<%= text_field_tag 'settings[link_item_text]', @settings['link_item_text'] %><br />
+<%= text_field_tag 'settings[link_item_text]', @settings['link_item_text'], :size => 70 %><br />
 </p>
 
 <p>
   <label><%= l(:link_new_window) %></label>
   <%= hidden_field_tag 'settings[new_window]', 0 %>
   <%= check_box_tag 'settings[new_window]', 1, @settings['new_window'].to_i == 1 %>
+</p>
+
+<p>
+  <label><%= l(:link_require_logged_in) %></label>
+  <%= hidden_field_tag 'settings[link_require_logged_in]', 0 %>
+  <%= check_box_tag 'settings[link_require_logged_in]', 1, @settings['link_require_logged_in'].to_i == 1 %>
 </p>
 
 </fieldset>

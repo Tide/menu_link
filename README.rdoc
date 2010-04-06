@@ -1,0 +1,19 @@
+= Menu Link Plugin
+
+A plugin which adds a link to the top menu of Redmine.
+
+== Features
+
+* Set a custom name for the link.
+* Change the link and name without restarting Redmine.
+* Open in current window or new window.
+
+== Installation and Setup
+
+1. Follow the Redmine plugin installation steps at: http://www.redmine.org/wiki/redmine/Plugins  Make sure the plugin is installed to +vendor/plugins/menu_link+
+2. Restart Redmine
+4. Login and configure the plugin (Administration > Plugins > Configure)
+
+== License
+
+This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.

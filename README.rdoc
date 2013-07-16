@@ -2,6 +2,10 @@
 
 A plugin which adds a link to the top menu of Redmine.
 
+== Compatibility
+
+* Redmine 2.3.x, 2.2.x, 2.1.x, 2.0.x, 1.4.x
+
 == Authors
 
 Tide, Yuki Kita
@@ -15,7 +19,7 @@ Tide, Yuki Kita
 
 == Installation and Setup
 
-1. Follow the Redmine plugin installation steps at: http://www.redmine.org/wiki/redmine/Plugins  Make sure the plugin is installed to +vendor/plugins/menu_link+
+1. Follow the Redmine plugin installation steps at: http://www.redmine.org/wiki/redmine/Plugins  Make sure the plugin is installed to +plugins/menu_link+
 2. Restart Redmine
 4. Login and configure the plugin (Administration > Plugins > Configure)
 

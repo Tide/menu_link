@@ -1,6 +1,6 @@
 require 'redmine'
 
-Rails.logger.info 'Menu Link plugin 0.0.1 for Redmine'
+Rails.logger.info 'Menu Link plugin 1.0.0 for Redmine'
 
 Redmine::Plugin.register :menu_link do
   name 'Menu Link Plugin'

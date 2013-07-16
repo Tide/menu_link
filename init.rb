@@ -6,7 +6,7 @@ Redmine::Plugin.register :menu_link do
   name 'Menu Link Plugin'
   author 'Tide, Yuki Kita'
   description 'A plugin which adds a link to the top menu of Redmine.'
-  version '0.0.1'
+  version '1.0.0'
 
   settings :default => {
     'link_item_text' => 'http://www.google.com',

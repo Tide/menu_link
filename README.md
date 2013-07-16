@@ -35,8 +35,6 @@ git clone https://github.com/Tide/menu_link plugins/menu_link
 
 or
 
-Download the file manually and follow the directions at:
-http://www.redmine.org/projects/redmine/wiki/Plugins
+Download the file manually and follow the directions at http://www.redmine.org/projects/redmine/wiki/Plugins.
 
-Restart Redmine
-Login and configure the plugin (Administration > Plugins > Configure)
+Restart Redmine then login and configure the plugin (Administration > Plugins > Configure)

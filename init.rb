@@ -1,9 +1,9 @@
 require 'redmine'
 
-Rails.logger.info 'Menu Link plugin 1.0.0 for Redmine'
+Rails.logger.info 'Starting Menu Link plugin'
 
 Redmine::Plugin.register :menu_link do
-  name 'Menu Link Plugin'
+  name 'Menu Link'
   author 'Tide, Yuki Kita'
   description 'A plugin which adds a link to the top menu of Redmine.'
   url 'https://github.com/Tide/menu_link'

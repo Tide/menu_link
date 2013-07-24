@@ -3,7 +3,7 @@ Redmine menu_link plugin
 
 A plugin which adds a link to the top menu of Redmine.
 
-* homepage: https://github.com/Tide/menu_link
+* Homepage: https://github.com/Tide/menu_link
 
 Compatibility:
 --------------
@@ -30,7 +30,7 @@ Installation and Setup:
 Clone this project into redmine plugin directory
 
 ```
-git clone https://github.com/Tide/menu_link plugins/menu_link
+git clone https://github.com/Tide/menu_link
 ```
 
 or
@@ -38,3 +38,8 @@ or
 Download the file manually and follow the directions at http://www.redmine.org/projects/redmine/wiki/Plugins.
 
 Restart Redmine then login and configure the plugin (Administration > Plugins > Configure)
+
+License:
+--------
+
+This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
